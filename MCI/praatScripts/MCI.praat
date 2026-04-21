@@ -1,0 +1,66 @@
+"ooTextFile"
+   "ExperimentMFC 7"
+   blankWhilePlaying? <no>
+   stimuliAreSounds? <yes>
+   stimulusFileNameHead = "stimuli/"
+   stimulusFileNameTail = ".wav"
+   stimulusCarrierBefore = ""
+   stimulusCarrierAfter = ""
+   stimulusInitialSilenceDuration = 0.5 seconds
+   stimulusMedialSilenceDuration = 0
+   stimulusFinalSilenceDuration = 0.5 seconds
+   numberOfDifferentStimuli = 27
+      "rising_1"  ""
+      "rising_flat_1"   ""
+      "rising_falling_1"  ""
+      "flat_rising_1"   ""
+      "flat_1"  ""
+      "flat_falling_1"   ""
+      "falling_rising_1"   ""
+      "falling_flat_1"   ""
+      "falling_1"   "" 
+      "rising_3"  ""
+      "rising_flat_3"   ""
+      "rising_falling_3"  ""
+      "flat_rising_3"   ""
+      "flat_3"  ""
+      "flat_falling_3"   ""
+      "falling_rising_3"   ""
+      "falling_flat_3"   ""
+      "falling_3"   "" 
+      "rising_5"  ""
+      "rising_flat_5"   ""
+      "rising_falling_5"  ""
+      "flat_rising_5"   ""
+      "flat_5"  ""
+      "flat_falling_5"   ""
+      "falling_rising_5"   ""
+      "falling_flat_5"   ""
+      "falling_5"   "" 
+   numberOfReplicationsPerStimulus = 4
+   breakAfterEvery = 54
+   randomize = <PermuteBalancedNoDoublets>
+   startText = "After hearing each 5 note melody, select the image 
+that most closely resembles what you just heard.
+   
+   Click to start."
+   runText = "Choose the melody that you heard."
+   pauseText = "Halfway! Feel free to take a short break if you'd like. Click to proceed."
+   endText = "The experiment has finished."
+   maximumNumberOfReplays = 0
+   replayButton = 0 0 0 0 "" ""
+   okButton = 0 0 0 0 "" ""
+   oopsButton = 0 0 0 0 "" ""
+   responsesAreSounds? <no> "" "" "" "" 0 0 0
+   numberOfDifferentResponses = 9
+      0.2 0.3 0.7 0.8 "\FIpictures/rising.jpg" 40 "" "rising"
+      0.4 0.5 0.7 0.8 "\FIpictures/rising_flat.jpg" 40 "" "rising_flat"
+      0.6 0.7 0.7 0.8 "\FIpictures/rising_falling.jpg" 40 "" "rising_falling"
+      0.2 0.3 0.5 0.6 "\FIpictures/flat_rising.jpg" 40 "" "flat_rising"
+      0.4 0.5 0.5 0.6 "\FIpictures/flat.jpg" 40 "" "flat"
+      0.6 0.7 0.5 0.6 "\FIpictures/flat_falling.jpg" 40 "" "flat_falling"
+      0.2 0.3 0.3 0.4 "\FIpictures/falling_rising.jpg" 40 "" "falling_rising"
+      0.4 0.5 0.3 0.4 "\FIpictures/falling_flat.jpg" 40 "" "falling_flat"
+      0.6 0.7 0.3 0.4 "\FIpictures/falling.jpg" 40 "" "falling"
+
+   numberOfGoodnessCategories = 0
